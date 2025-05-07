@@ -15,6 +15,7 @@ format:
     papersize: letter
     colorlinks: true
     urlcolor: blue
+engine: julia
 ---
 
 ```{julia}
