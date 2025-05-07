@@ -1,0 +1,51 @@
+---
+title: "Rapport de laboratoire 1: méthode de Gram-Schmidt"
+subtitle: "MTH8211"
+author:
+  - name: Votre nom
+    email: votre.adresse@polymtl.ca
+    affiliation:
+      - name: Polytechnique Montréal
+format:
+  pdf:
+    keep-tex: false
+    documentclass: scrartcl
+    geometry:
+      - margin=1in
+    papersize: letter
+    colorlinks: true
+    urlcolor: blue
+---
+
+```{julia}
+#| output: false
+using Pkg
+Pkg.activate("rapport_env")    # activate a virtual environment
+```
+
+# Implémentation de Gram-Schmidt classique
+
+<!--
+Inclure la méthode vue en classe dans gram-schmidt.jl et l'afficher ici.
+-->
+
+# Illustration de l'échec en cas de dépendance linéaire
+
+<!--
+Proposer un exemple qui met l'implémentation classique en défaut.
+Expliquer la cause de l'échec.
+-->
+
+# Implémentation de Gram-Schmidt plus robuste
+
+<!--
+Proposer une manière de vérifier que les vecteurs d'entrée sont linéairement dépendants.
+Votre proposition n'a pas besoin d'être parfaite, mais vous devez discuter ses avantages et inconvénients.
+Implémenter cette méthode dans un fichier gram-schmidt-robuste.jl.
+-->
+
+# Démonstration de la nouvelle implémentation
+
+<!--
+Inclure ici votre test.jl et l'exécuter.
+-->
