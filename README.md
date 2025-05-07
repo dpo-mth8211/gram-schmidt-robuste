@@ -12,7 +12,7 @@
 10. ouvrez une *pull request* proposant vos modifications à la branche `main` **de mon dépôt** (pas de votre *fork*).
 
 Une fois ces opérations effectuées, votre rapport sera automatiquement compilé en PDF et un lien sera posté dans la *pull request*.
-Votre fichier `test.jl` sera également exécuté via la command `julia --project=rapport_env -e 'include("test.jl")'`.
+Votre fichier `test.jl` sera également exécuté via la commande `julia --project=rapport_env -e 'include("test.jl")'`.
 Attention, `test.jl` doit contenir (ou inclure un fichier qui contient) les bonnes commandes `using ...`, mais il ne doit pas activer l'environnement.
 
 Je ferai des commentaires dans votre *pull request* si nécessaire.
