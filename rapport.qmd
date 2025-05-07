@@ -2,8 +2,8 @@
 title: "Rapport de laboratoire 1: méthode de Gram-Schmidt"
 subtitle: "MTH8211"
 author:
-  - name: Votre nom
-    email: votre.adresse@polymtl.ca
+  - name: Dominique Orban
+    email: dominique.orban@polymtl.ca
     affiliation:
       - name: Polytechnique Montréal
 format:
@@ -15,6 +15,7 @@ format:
     papersize: letter
     colorlinks: true
     urlcolor: blue
+engine: julia
 ---
 
 ```{julia}
